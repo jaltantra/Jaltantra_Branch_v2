@@ -1203,6 +1203,7 @@ function getNodesJSON()
 						+ '","nodename":"' + node.labelContent
 						+ '","latitude":"' + node.getPosition().lat()
 						+ '","longitude":"' + node.getPosition().lng()
+						+ '","elevation":"' + (node.elevation || 0)  // Added elevation - sends elevation data from map to backend
 						+ '","isesr":"' + node.isesr
 						+ '"}';
 		delimiter = ',';				

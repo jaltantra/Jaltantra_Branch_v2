@@ -728,7 +728,7 @@ public class OptimizerServlet extends HttpServlet
 	    	generalCell.setCellStyle(cellStyle);
 	    	generalCell = row.createCell(3);
 	    	generalCell.setCellValue(generalProperties.source_elevation);
-	    	generalCell.setCellStyle(integerStyle);
+	    	generalCell.setCellStyle(doubleStyle);
 	    	
 	    	row = generalSheet.createRow(rowindex);
 	    	generalSheet.addMergedRegion(new CellRangeAddress(rowindex,rowindex,0,2));
@@ -798,7 +798,7 @@ public class OptimizerServlet extends HttpServlet
 				
 				nodeCell = nodeRow.createCell(2);
 				nodeCell.setCellValue(node.elevation);
-				nodeCell.setCellStyle(integerStyle);
+				nodeCell.setCellStyle(doubleStyle);
 				
 				nodeCell = nodeRow.createCell(3);
 				if(node.demand!=0)
@@ -2923,7 +2923,7 @@ public class OptimizerServlet extends HttpServlet
 					
 					esrCostCell = esrCostRow.createCell(3);
 					esrCostCell.setCellValue(esr.elevation);
-					esrCostCell.setCellStyle(integerStyle);
+					esrCostCell.setCellStyle(doubleStyle);
 					
 					esrCostCell = esrCostRow.createCell(4);
 					esrCostCell.setCellValue(esr.capacity);
@@ -2969,7 +2969,7 @@ public class OptimizerServlet extends HttpServlet
 								
 								esrCostCell = esrCostRow.createCell(3);
 								esrCostCell.setCellValue(node.elevation);
-								esrCostCell.setCellStyle(integerStyle);
+								esrCostCell.setCellStyle(doubleStyle);
 								
 								esrCostCell = esrCostRow.createCell(4);
 								esrCostCell.setCellValue(node.dailydemand);

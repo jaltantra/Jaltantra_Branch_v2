@@ -26,6 +26,7 @@ public class MapNodeStruct
 	@Override
 	public String toString() {
 		return "MapNodeStruct [nodeid=" + nodeid + ", nodename=" + nodename
-				+ ", latitude=" + latitude + ", longitude=" + longitude + ", isesr=" + isesr + "]";
+				+ ", latitude=" + latitude + ", longitude=" + longitude 
+				+ ", elevation=" + elevation + ", isesr=" + isesr + "]";   //function can receive and store elevation data
 	}
 }
