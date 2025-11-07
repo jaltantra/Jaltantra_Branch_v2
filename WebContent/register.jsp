@@ -67,8 +67,8 @@ input, select {
 	        String dbURL = "jdbc:mysql://localhost:3306/";
 	        // Database name, database user and password to access
 	        String dbName = "jaltantra_db";
-	        String dbUsername = "root";
-	        String dbPassword = "jaldb@2050";	  
+	        String dbUsername = "jaltantra_branch";
+	        String dbPassword = "jaltantra_branch";
 	        Class.forName(dbDriver);
 	        Connection conn = DriverManager.getConnection(dbURL + dbName ,dbUsername, dbPassword);
 	        String sql = "SELECT  DISTINCT organization FROM jaltantra_users ORDER BY organization;";

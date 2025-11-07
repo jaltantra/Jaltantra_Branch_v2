@@ -22,3 +22,12 @@ or using MySQL, create a database named "jaltantra_db" and a table named "jaltan
 You can see/modify the user credentials in the UserDao.java file. 
 
 
+#temp chnage in file line 2573 
+replace this 
+				nodeCell = nodeRow.createCell(3);
+				nodeCell.setCellValue(node.elevation);
+				nodeCell.setCellStyle(doubleStyle);
+      with 
+        nodeCell = nodeRow.createCell(3);
+        nodeCell.setCellValue(Double.parseDouble(String.format("%.2f", node.elevation)));
+        nodeCell.setCellStyle(doubleStyle);

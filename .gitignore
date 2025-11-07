@@ -27,3 +27,10 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# compiled and copied code
+WebContent/WEB-INF/classes/
+WebContent/WEB-INF/lib/
+
+# patch files
+*.patch

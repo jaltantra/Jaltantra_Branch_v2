@@ -36,7 +36,7 @@
 <!-- 		The Key for jaltantra: XXXXXXXXXXXXX          -->
 
 
-<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=KEY_MUST_BE_ADDED_HERE_&libraries=geometry,places"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyBiYuLb_yGvYCXBnBL-Wz_8Pswbrek0Vds&libraries=geometry,places"></script>
 
 
 

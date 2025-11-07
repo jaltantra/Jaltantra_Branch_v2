@@ -5,6 +5,7 @@ import com.google.ortools.linearsolver.MPObjective;
 import com.google.ortools.linearsolver.MPSolver;
 import com.google.ortools.linearsolver.MPSolver.ResultStatus;
 import com.google.ortools.linearsolver.MPVariable;
+// import com.google.ortools.Loader;
 
 //used to solve the ILP using Google OR Tools interface
 //solver used is CBC
@@ -15,8 +16,10 @@ public class Problem {
 	
 	static { 
 		try{
-			System.loadLibrary("jniortools");  //original
+			// System.loadLibrary("jniortools");  //original
+			// Loader.loadNativeLibraries();
 			//System.load("D:\\\\eclipse\\jniortools.dll"); 
+			System.load("/usr/local/lib/ortools-linux-x86-64/libjniortools.so");
 		}
 		catch(Exception e){
 			System.out.println(e.getMessage());
