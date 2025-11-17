@@ -35,9 +35,11 @@
 
 <!-- 		The Key for jaltantra: XXXXXXXXXXXXX          -->
 
+<!-- deployment key -->
+<!-- <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyBiYuLb_yGvYCXBnBL-Wz_8Pswbrek0Vds&libraries=geometry,places"></script> -->
 
-<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyBiYuLb_yGvYCXBnBL-Wz_8Pswbrek0Vds&libraries=geometry,places"></script>
-
+<!-- development key -->
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyC9b1bFF_bzRZu17GyYvyez6f39IRoREsU&libraries=geometry,places"></script>
 
 
 <!-- importing contextmenu javascript file for adding right click context menu to the map-->
