@@ -728,7 +728,7 @@ public class OptimizerServlet extends HttpServlet
 	    	generalCell.setCellStyle(cellStyle);
 	    	generalCell = row.createCell(3);
 	    	generalCell.setCellValue(generalProperties.source_elevation);
-	    	generalCell.setCellStyle(doubleStyle);
+	    	generalCell.setCellStyle(cellStyle);
 	    	
 	    	row = generalSheet.createRow(rowindex);
 	    	generalSheet.addMergedRegion(new CellRangeAddress(rowindex,rowindex,0,2));
@@ -2220,7 +2220,7 @@ public class OptimizerServlet extends HttpServlet
 	    	generalCell.setCellStyle(cellStyle);
 	    	generalCell = row.createCell(3);
 	    	generalCell.setCellValue(generalProperties.source_elevation);
-	    	generalCell.setCellStyle(doubleStyle);
+	    	generalCell.setCellStyle(cellStyle);
 	    	
 	    	row = generalSheet.createRow(rowindex);
 	    	generalSheet.addMergedRegion(new CellRangeAddress(rowindex,rowindex,0,2));
